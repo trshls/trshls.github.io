@@ -1,30 +1,46 @@
 body{
 	/* this is the outermost element on your page*/
+	background-color: #D8CC34;
+	padding: 50px;
+	width: 65%;
+	font-family: sans-serif;
 }
 
-h1{
-	/* main headings */
-}
+/* ------------- HEADERS ------------- */
+	h1{
+		font-size: 3rem;
+		color: #002626;
+
+		}
+
+	h2{
+		color: #002626;
+
+		}
 
 p{
-	/* paragraphs */	
-}
+	color: #002626;
 
-a{
-	/* links */	
-}
+	}
 
-ul{
-	/* unordered list container */	
-}
+a{	
+	color: #463239;
 
-ol{
-	/* unordered list container */	
-}
+	}
 
-li{
-	/* list items */	
-}
+/* ------------- LISTS ------------- */
+
+	ul{	/* unordered list container */	
+
+		}
+
+	ol{
+		/* unordered list container */	
+		}
+
+	li{
+		/* list items */	
+	}
 
 #idname{
 	/* an ID assignment begins with a #*/	
