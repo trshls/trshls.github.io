@@ -3,14 +3,17 @@ body{
 	background-color: #D8CC34;
 	padding: 50px;
 	width: 65%;
-	font-family: sans-serif;
+
+	font-family: "obviously-variable", sans-serif;
+	font-variation-settings: "wght" 200 900, "wdth" 50 200;
+
 }
 
 /* ------------- HEADERS ------------- */
 	h1{
-		font-size: 3rem;
+		font-size: 2.5rem;
 		color: #002626;
-
+		font-variation-settings: "wght" 700;
 		}
 
 	h2{
@@ -20,7 +23,9 @@ body{
 
 p{
 	color: #002626;
-
+	font-size: 1.1em;
+	font-variation-settings: "wght" 410, "wdth" 90, "ital" 0;
+	line-height: 1.4em;
 	}
 
 a{	
