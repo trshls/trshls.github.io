@@ -1,0 +1,16 @@
+body{
+	/* this is the outermost element on your page*/
+	background: #e53b6a;
+}
+
+.container {
+	display: flex;
+}
+
+.name {
+	 background: #653072;
+}
+
+h1 {
+	color: #e2d051;
+}

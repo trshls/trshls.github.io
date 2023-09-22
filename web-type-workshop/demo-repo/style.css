@@ -2,18 +2,20 @@ body{
 	/* this is the outermost element on your page*/
 	background-color: #D8CC34;
 	padding: 50px;
-	width: 65%;
+	max-width: 1300px;
 
 	font-family: "obviously-variable", sans-serif;
 	font-variation-settings: "wght" 200 900, "wdth" 50 200;
 
 }
 
+	}
+
 /* ------------- HEADERS ------------- */
 	h1{
 		font-size: 2.5rem;
 		color: #002626;
-		font-variation-settings: "wght" 700;
+		font-variation-settings: "wght" 800;
 		}
 
 	h2{
@@ -56,3 +58,16 @@ a{
 	/* a class assignment begins with a .*/	
 }
 
+/* ------------- RESPONSIVE DESIGN ------------- */
+
+@media (max-width: 1300px){
+	body{
+		width: 60%;
+	}
+}
+
+@media (max-width: 800px){
+	body{
+		width: 80%;
+	}
+}
